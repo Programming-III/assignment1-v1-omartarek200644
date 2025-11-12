@@ -1,6 +1,12 @@
 // Example program
 #include <iostream>
-#include <string>
+#include <string
+#include "Animal.h"
+#include "Bird.h"
+#include "Enclosure.h"
+#include "Mammal.h"
+#include "Reptile.h"
+#include "Visitor.h"
 using namespace std;
 class Animal{
     private:

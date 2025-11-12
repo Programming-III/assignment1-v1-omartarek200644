@@ -2,6 +2,9 @@
 #define BIRD_H
 
 #include "Animal.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 class Bird: public Animal{
         private:

@@ -1,6 +1,7 @@
 #ifndef VISITOR_H
 #define VISITOR_H
 
+#include <iostream>
 #include <string>
 using namespace std;
 class Visitor{

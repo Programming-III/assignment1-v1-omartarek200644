@@ -3,8 +3,16 @@
 
 #include <string>
 using namespace std;
-
-//define visitor class here
+class Visitor{
+            private:
+            string visitorName;
+            int ticketsBought;
+            public:
+            Visitor();
+            Visitor(string vn,int t);
+            ~Visitor();    
+                void displayInfo();
+            };
 
 
 

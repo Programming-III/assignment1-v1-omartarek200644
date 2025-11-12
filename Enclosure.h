@@ -2,6 +2,9 @@
 #define ENCLOSURE_H
 
 #include "Animal.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 class Enclosure{
             private:
